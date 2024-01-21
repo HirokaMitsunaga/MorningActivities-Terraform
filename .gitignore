@@ -1,0 +1,19 @@
+# .terraform ディレクトリ
+**/.terraform/*
+
+# tfstate ファイル
+*.tfstate
+*.tfstate.*
+
+# Crash ログファイル
+crash.log
+
+# tfvars ファイル
+*.tfvars
+*.tfvars.json
+
+# ローカルオーバーライドファイル
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
